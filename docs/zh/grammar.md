@@ -361,7 +361,7 @@ SELECT `id`,`date`,`content`,`praiseUserIdList` FROM `thea`.`Moment` LIMIT 5 OFF
 }
 ```
 
-这里因为`query`的值是 2，所有会查询`Moment`表中所有的数据。如果是 1 的话，则会返回当前表的总数
+这里因为`query`的值是 2，所以会查询`Moment`表中所有的数据。如果是 1 的话，则会返回当前表的总数
 
 ```json
 { "total": 59, "code": 200, "msg": "success" }
